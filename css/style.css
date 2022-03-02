@@ -129,7 +129,8 @@ ul li:nth-child(odd) {
   justify-content: center;
 }
 
-#github img {
+.img-github,
+.img-linkedin {
   width: 25px;
   margin-right: 5px;
 }
