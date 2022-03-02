@@ -68,6 +68,7 @@ a {
 
 a:hover {
   color: rgb(233, 214, 214);
+  transition: 1s;
 }
 
 .trace {
@@ -97,7 +98,7 @@ div.descrissao {
 h2 {
   font-size: 20px;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   background-color: #99c1de;
   color: white;
   font-weight: lighter;
@@ -120,4 +121,18 @@ ul li:nth-child(even) {
 }
 ul li:nth-child(odd) {
   background-color: #eddcd2;
+}
+
+#github {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#github img {
+  width: 25px;
+  margin-right: 5px;
+}
+#github span {
+  margin: 0 10px;
 }
